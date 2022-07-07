@@ -24,13 +24,13 @@ Seed scripts are tedious to write and maintain, inaccurate and a tiny representa
 
 ## The solution
 
-Snaplet is a self-service workflow that allows developers to copy whilst transforming a data, which can then be shared and restored into any development environment.
+Snaplet is a self-service workflow that allows developers to copy whilst transforming their data, which can then be shared and restored into any development environment.
 
 ### Examples
 
 1. Join a new team, run `snaplet snapshot restore` and get a copy from the evening before
 2. See a bug in production? run `snaplet snapshot restore --new` and restore an "on demand" snapshot in an instant
-3. Write E2E tests again actual data
+3. Write E2E tests aginst actual data
 4. Spin up pull request/ deploy preview databases with accurate data
 5. Write data-migrations against accurate data
 
